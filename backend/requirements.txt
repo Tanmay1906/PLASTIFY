@@ -1,0 +1,34 @@
+# Web framework & ASGI server
+fastapi>=0.110.0,<0.116.0
+uvicorn[standard]>=0.28.0
+python-multipart>=0.0.9
+
+# Configuration & Validation
+pydantic>=2.6.0,<3.0.0
+pydantic-settings>=2.2.0
+
+# Authentication & Cryptography
+bcrypt>=4.1.2
+pyjwt[crypto]>=2.8.0
+email-validator>=2.1.0
+
+# Database & ORM
+sqlalchemy[asyncio]>=2.0.28
+greenlet>=3.0.0
+asyncpg>=0.29.0
+alembic>=1.13.1
+
+# Caching & Message Queue
+redis>=5.0.3
+celery>=5.3.6
+
+# HTTP Client (Integrations & testing)
+httpx>=0.27.0
+
+# Object Storage (S3 / MinIO)
+boto3>=1.34.0
+
+# Testing & Local In-Memory DB support
+pytest>=8.0.0
+pytest-asyncio>=0.23.5
+aiosqlite>=0.20.0
